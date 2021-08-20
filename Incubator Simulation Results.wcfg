@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="incubator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="incubator_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1200001fs"></ZoomEndTime>
+      <Cursor1Time time="1200000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="147"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/incubator_tb/CLOCK_STOP" type="other">
+      <obj_property name="ElementShortName">CLOCK_STOP</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_STOP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/TEMPRATURE" type="array">
+      <obj_property name="ElementShortName">TEMPRATURE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TEMPRATURE[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/COOLER_STATUS" type="logic">
+      <obj_property name="ElementShortName">COOLER_STATUS</obj_property>
+      <obj_property name="ObjectShortName">COOLER_STATUS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/HEATER_STATUS" type="logic">
+      <obj_property name="ElementShortName">HEATER_STATUS</obj_property>
+      <obj_property name="ObjectShortName">HEATER_STATUS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/CRS" type="array">
+      <obj_property name="ElementShortName">CRS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/incubator_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
